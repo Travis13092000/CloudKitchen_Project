@@ -10,7 +10,7 @@ h2 {
   color: #23463f;
   padding: 20px;
 }
-.login {
+.sign {
   width: 382px;
   overflow: hidden;
   margin: auto;
@@ -19,12 +19,14 @@ h2 {
   background: #23463f;
   border-radius: 15px;
 }
-
 label {
   color: #08ffd1;
   font-size: 17px;
+  text-align: left;
+  justify-content:right;
 }
-#Uname {
+
+#email {
   width: 300px;
   height: 30px;
   border: none;
@@ -32,7 +34,7 @@ label {
   padding-left: 8px;
   margin: 10px;
 }
-#Pass {
+#pass {
   width: 300px;
   height: 30px;
   border: none;
@@ -40,7 +42,22 @@ label {
   padding-left: 8px;
   margin: 10px;
 }
-#log {
+#pass2 {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #b5f0e5;
+}
+.button {
   width: 300px;
   height: 30px;
   border: none;
@@ -53,16 +70,3 @@ label {
   margin: 10px;
   align-items: center;
 }
-span {
-  color: white;
-  font-size: 15px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-a {
-  background-color: none;
-  color: white;
-  font-size: 15px;
-  text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
